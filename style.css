@@ -1,0 +1,30 @@
+header{
+    margin: 0px 74.5px;
+    height: 80px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    padding: 10px;
+}
+header > div > a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+i{
+    border: none;
+    padding: 10px;
+}
+#heart:hover{
+    border: thin solid lightcoral;
+    border-radius: 20px;
+    background-color: lightcoral;
+}
+#user:hover{
+    border: thin solid gray;
+    border-radius: 20px;
+    background-color: gray;
+}
